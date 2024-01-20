@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "../styles/Home.css"
 import { Link } from "react-router-dom"
+import Tatar from '/image3.png'
 
 function HomePage() {
   const [firstPhoneNumber, setFirstPhoneNumber] = useState('0542 564 76 61')
@@ -56,10 +57,10 @@ function HomePage() {
           </div>
         </div>
         <div className="hero-images-container">
-          <img src="/image.png" className="hero-image" />
-          <img src="image3.png" className="hero-image" />
-          <img src="/image3.png" className="hero-image" />
-          <img src="images/image.png" className="hero-image" />
+          <img src="src/images/image.png" className="hero-image" />
+          <img src={Tatar} className="hero-image" />
+          <img src="src/images/image4.png" className="hero-image" />
+          <img src="src/images/image5.png" className="hero-image" />
         </div>
       </div>
       <div className="services">
