@@ -9,7 +9,8 @@ import Contact from './pages/Contact'
 
 const router = createBrowserRouter([
   {
-    path: "/Anasayfa", element: <RootLayout />, children: [
+    path: "/", element: <RootLayout />, children: [
+      { path: "/", element: <HomePage /> },
       { path: "/Anasayfa", element: <HomePage /> },
       { path: "/Hakkımızda", element: <AboutUs /> },
       { path: "/Hizmetlerimiz", element: <Services /> },
