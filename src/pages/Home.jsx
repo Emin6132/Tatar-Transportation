@@ -1,7 +1,16 @@
 import { useState } from "react"
 import "../styles/Home.css"
 import { Link } from "react-router-dom"
-import Tatar from '/image3.png'
+import image from '/image.png'
+import image1 from '/image1.png'
+import image2 from '/image2.png'
+import image3 from '/image3.png'
+import image4 from '/image4.png'
+import image5 from '/image5.png'
+import image6 from '/asansörlü-nakliyat.png'
+import image7 from '/evden-eve-nakliyat.png'
+import siteLogo from '/TatarLogo2.png'
+
 
 function HomePage() {
   const [firstPhoneNumber, setFirstPhoneNumber] = useState('0542 564 76 61')
@@ -57,10 +66,10 @@ function HomePage() {
           </div>
         </div>
         <div className="hero-images-container">
-          <img src="src/images/image.png" className="hero-image" />
-          <img src={Tatar} className="hero-image" />
-          <img src="src/images/image4.png" className="hero-image" />
-          <img src="src/images/image5.png" className="hero-image" />
+          <img src={image} className="hero-image" />
+          <img src={image3} className="hero-image" />
+          <img src={image4} className="hero-image" />
+          <img src={image5} className="hero-image" />
         </div>
       </div>
       <div className="services">
