@@ -133,7 +133,7 @@ const Contact = () => {
               <span className='icon-bg'>
                 <i class="fa-brands fa-instagram email-info-icon infos-icon"></i>
               </span>
-              <span className='contact-us-info-title'>İnstagram:</span> tatarnakliyat61@gmail.com
+              <span className='contact-us-info-title'>Instagram:</span> tatarnakliyat61@gmail.com
             </div>
           </div>
         </div>
