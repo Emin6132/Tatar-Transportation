@@ -19,7 +19,7 @@ const AboutUs = () => {
           Vizyonumuz
         </h3>
         <span className='vision-text'>
-          İstanbul evden eve nakliyat firmamiz misyonumuzda belirttiğimiz gibi tek amacı daima müşterilerimizi mutlu etmek ve güler yüzle uğurlanmaktır.
+          Tatar Nakliyat firmamiz misyonumuzda belirttiğimiz gibi tek amacı daima müşterilerimizi mutlu etmek ve güler yüzle uğurlanmaktır.
         </span>
       </span>
       </div>
