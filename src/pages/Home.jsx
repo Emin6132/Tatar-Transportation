@@ -2,14 +2,11 @@ import { useState } from "react"
 import "../styles/Home.css"
 import { Link } from "react-router-dom"
 import image from '/image.png'
-import image1 from '/image1.png'
-import image2 from '/image2.png'
 import image3 from '/image3.png'
 import image4 from '/image4.png'
 import image5 from '/image5.png'
-import image6 from '/asansörlü-nakliyat.png'
-import image7 from '/evden-eve-nakliyat.png'
-import siteLogo from '/TatarLogo2.png'
+import image7 from '/image7.png'
+
 
 
 function HomePage() {
@@ -78,7 +75,7 @@ function HomePage() {
           <div className="service">
             <div className="service-title">Evden Eve Nakliyat</div>
             <div className="service-img-div">
-              <img src="src/images/image4.png" className="service-img" />
+              <img src={image4} className="service-img" />
             </div>
             <div className="service-explanation-text">
               Evden eve taşımacılık yapılacak gün ve saatte ekibimiz ve aracımız ile gelerek paketleme yaparız, araca yükleriz ve yeni adrese hareket ederiz.
@@ -87,7 +84,7 @@ function HomePage() {
           <div className="service">
             <div className="service-title">Şehirler Arası Nakliyat</div>
             <div className="service-img-div">
-              <img src="src/images/image5.png" className="service-img" />
+              <img src={image5} className="service-img" />
             </div>
             <div className="service-explanation-text">
               Tatar Nakliyat olarak Türkiye’yenin her bölgesine, şehirler arası taşımacılık hizmetini ambalajlı asansörlü ve sigorta güvencesiyle gerçekleştiririz.
@@ -96,7 +93,7 @@ function HomePage() {
           <div className="service">
             <div className="service-title">Ofis / İş Yeri Taşıma</div>
             <div className="service-img-div">
-              <img src="src/images/image.png" className="service-img" />
+              <img src={image} className="service-img" />
             </div>
             <div className="service-explanation-text">
               Ofis ve işletmeler evlerden ayrı bir şekilde, elektrik cihaz bilgisi olan tecrübeli elemanlarımız tarafından gerçekleştirilmektedir.
@@ -105,7 +102,7 @@ function HomePage() {
           <div className="service">
             <div className="service-title">Ambalajlı Nakliyat</div>
             <div className="service-img-div">
-              <img src="https://www.cesurevdenevetasimacilik.com/gorsel/hizmet/6.jpg" className="service-img" />
+              <img src={image7} className="service-img" />
             </div>
             <div className="service-explanation-text">
               Nakliyatını yapacağımız tüm eşyalarınız sağlam bir şekilde ambalaj yapılarak hasarsız ve sağlam bir biçimde titizlikle taşınmaktadır.

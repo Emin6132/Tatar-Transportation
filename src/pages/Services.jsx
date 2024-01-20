@@ -1,36 +1,42 @@
 import { useState } from "react"
 import "../styles/Services.css"
+import image from '/image.png'
+import image1 from '/image1.png'
+import image3 from '/image3.png'
+import image4 from '/image4.png'
+import image6 from '/image6.png'
+import image7 from '/image7.png'
 
 const Services = () => {
   const [serviceOptionInfo, setServiceOptionInfo] = useState([
     {
       id: 1,
       title: "Evden Eve Nakliyat",
-      image: "src/images/image4.png",
+      image: {image4},
       explanation: "Evden eve taşımacılık yapılacak gün ve saatte ekibimiz ve aracımız ile gelerek paketleme yaparız, araca yükleriz ve yeni adrese hareket ederiz."
     },
     {
       id: 2,
       title: "Asansörlü Nakliyat",
-      image: "src/images/asansörlü-nakliyat.jpeg",
+      image: {image6},
       explanation: "Asansörlü nakliyat hizmeti kapsamında sizlere en kolay sistemde eşya nakliye çözümleri sunuyor ve eşyalarınızı en sağlıklı şekilde nakliyat aracına zamandan da sarruf ederek taşıyoruz."
     },
     {
       id: 3,
       title: "Şehir İçi Nakliyat",
-      image: "src/images/image3.png",
+      image: {image3},
       explanation: "Tatar Nakliyat olarak uzun yıllardır İstanbul ilçelerinde profesyonel ve kaliteli olarak İstanbul evden eve nakliyat hizmeti sunmaktayız. Sizin de evinizi güvenle taşı mak isteriz."
     },
     {
       id: 4,
       title: "Şehir Dışı Nakliyat",
-      image: "src/images/image5.png",
+      image: {image6},
       explanation: "Tatar Nakliyat olarak Türkiye’yenin her bölgesine, şehirler arası taşımacılık hizmetini ambalajlı ve asansörlü nakliyat hizmetiyle gerçekleştiririz."
     },
     {
       id: 5,
       title: "Ambalajlı Nakliyat",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI2UQixYFQroowg9D7LiI0kMp41WukX1G1ag&usqp=CAU",
+      image: {image7},
       explanation: "Nakliyatını yapacağımız tüm eşyalarınız sağlam bir şekilde ambalaj yapılarak hasarsız ve sağlam bir biçimde titizlikle taşınmaktadır."
     },
     {
@@ -42,13 +48,13 @@ const Services = () => {
     {
       id: 7,
       title: "Hızlı ve Güvenilir Nakliyat",
-      image: "src/images/image1.png",
+      image: {image1},
       explanation: "İşimizi en hızlı şekilde ve en dikkatli şekilde yapıyoruz. Eşyalarınıza zarar gelmemesi için profosyonelce işimizi yapıyoruz."
     },
     {
       id: 8,
       title: "Parça Eşya Nakliyat",
-      image: "src/images/image.png",
+      image: {image},
       explanation: "Taşınma hizmetlerinin profesyonel bir şekilde gerçekleşmesi için, nakliyat dünyasında en iyi hizmeti vermeye çalışıyoruz.Ve müşterilerimizin memnuniyetini sağlıyoruz."
     },
   ])
